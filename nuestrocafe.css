@@ -1,0 +1,92 @@
+:root {
+    --starbucks-green: #00704A;
+    --text-dark: #1e3932;
+    --text-light: #ffffff;
+    --background-light: #f9f9f9;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    background-color: var(--background-light);
+    color: var(--text-dark);
+}
+
+.header {
+    background-color: #ffffff;
+    
+}
+
+.header-container {
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 100px;
+    margin-left:2%;
+}
+
+.logo {
+    height: 60px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: #00704A;
+    text-decoration: none;
+   font-size: 20px;
+}
+
+.hero {
+    background-image: url('assets/hero-cafe.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 50px;
+    text-align: center;
+    color: var(--text-light);
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.history, .sourcing, .quality {
+    padding: 4px 2px;
+    background-color: var(--background-light);
+}
+
+.history-container, .sourcing-container, .quality-container {
+    max-width:95%;
+    color: #00704A;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.history-container img, .sourcing-container img, .quality-container img {
+    width: 50%;
+    height: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #00704A;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: var(--starbucks-green);
+    color: var(--text-light);
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
